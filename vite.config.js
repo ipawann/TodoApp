@@ -7,4 +7,6 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  base: '/TodoApp/', // 👈 This is required for GitHub Pages
+
 })
